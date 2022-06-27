@@ -239,6 +239,7 @@ h4{color: gray}
     background: url(img/arrow-right.svg) no-repeat center center/40%;
     transition: left 5s; }
 
+/* Revisar */
 .item ul li:hover:after{position: relative;
     left: 1em;}
 
