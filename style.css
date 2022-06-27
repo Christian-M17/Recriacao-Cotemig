@@ -379,3 +379,96 @@ transition: transform .2s;
     text-align: left;    
     position:relative;
     bottom: 13em}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    text-align: left;
+    width: 100%;
+    min-height: 1em;
+    background-color: #151515;}
+
+#part-1{display: flex;
+    margin: 2em;
+    border-bottom: solid 1px gray}
+
+
+.lista-footer{padding: 0 1em}
+
+footer h4{
+    color: white;
+    font-size: 1.3em;
+    padding-left: 2em;}
+
+footer ul{color: gray;
+    flex-flow:column}
+
+footer li{font-weight: 500;
+    padding: 0.5em 3em 0.5em 0.5em}
+
+footer .lista-footer li:hover{color: gray;
+    border-radius: 10px;
+    background-color: rgb(143, 143, 143, 0.1);}
+
+#descricao-footer{
+    padding: 0 0;}
+
+#descricao-footer h4{position:relative;
+right: 2.2em;}
+
+#descricao-footer button{width: 100%;
+font-size: 0.9em;
+color: white;
+font-weight: 700;
+border-radius: 10px;
+border: 0;
+cursor: pointer;
+background-color: #40aa0b;
+padding: 1em 0;}
+
+#descricao-footer button:hover{
+    background-color: #32830a;
+}
+
+footer h5{color: gray;
+font-size: 1em;
+font-weight: 500;}
+
+#part-2{display:flex;
+    margin: 0 3em;}
+
+#part-2 li{font-size: 0.8em;}
+
+#left li {color:white}
+
+#left{padding-right: 5em;}
+
+#logo-footer{width: 8em;}
+
+.rede-logo{
+width: 1.5em;
+border-radius: 10px;
+padding: 1em 2em;}
+
+#colegio-redes{padding-right: 3em;}
+
+
+.redes-sociais{display: flex;}
+
+.facebook{background:#4460a0;}
+.instagram{background:white;}
+.linkedin{background: #007ab9}
+.twitter{background: #00aaec}
+
+#right{display: flex;
+flex-flow: row;}
+
+#part-2 h4{font-size: 1.5em;
+padding-bottom: 0;}
+
+#right li{
+    text-align: center;
+    padding: 0;}
+
+#right li:hover{color:gray}
