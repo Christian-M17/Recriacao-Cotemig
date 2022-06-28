@@ -383,7 +383,7 @@ transition: transform .2s;
 
 footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: column;
     text-align: left;
     width: 100%;
@@ -443,7 +443,7 @@ font-weight: 500;}
 
 #left li {color:white}
 
-#left{padding-right: 5em;}
+#left{padding-right: 3em;}
 
 #logo-footer{width: 8em;}
 
