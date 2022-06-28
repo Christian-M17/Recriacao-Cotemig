@@ -348,7 +348,7 @@ a:before{content: "";
 
 .items-3{display:flex;
     margin-bottom: 2em;
-    justify-content: space-evenly;}
+    justify-content: space-around;}
 
 .item-3{
     overflow: hidden;
